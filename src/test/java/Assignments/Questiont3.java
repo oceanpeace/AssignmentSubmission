@@ -1,6 +1,6 @@
 package Assignments;
 
-public class questionthreesuper {
+public class Questiont3 {
 	
   //declaring the variable z
   int z;

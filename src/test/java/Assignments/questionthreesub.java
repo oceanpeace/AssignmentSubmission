@@ -7,7 +7,7 @@ import java.util.Properties;
 
 //import java.util.Properties;
 
-public class questionthreesub extends questionthreesuper {
+public class questionthreesub extends Questiont3 {
 	//static Properties prop = new Properties();
 	
   //Method to perform multiplication in subclass	

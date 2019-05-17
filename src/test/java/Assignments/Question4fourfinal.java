@@ -2,7 +2,7 @@ package Assignments;
 
 
 
-public class questionfourfinal {
+public class Question4fourfinal {
 	
 	 
 

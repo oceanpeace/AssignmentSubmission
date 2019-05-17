@@ -6,7 +6,7 @@ import org.testng.annotations.Listeners;
 //annotation for listeners
 @Listeners(Assignments.Listener.class)
 
-public class ListenerTestCase {
+public class Question2ListenerTestCase {
 
 	
 //test for passing with priority 2
