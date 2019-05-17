@@ -33,5 +33,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/saggrawa/libs1/client-combined-3.141.59.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
