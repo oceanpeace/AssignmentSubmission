@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62" started-at="2019-05-17T12:46:07Z" finished-at="2019-05-17T12:46:08Z">
+  <suite name="Default suite" duration-ms="65" started-at="2019-05-20T11:58:54Z" finished-at="2019-05-20T11:58:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62" started-at="2019-05-17T12:46:07Z" finished-at="2019-05-17T12:46:08Z">
-      <class name="Assignments.ListenerTestCase">
-        <test-method status="PASS" signature="FailingTest()[pri:0, instance:Assignments.ListenerTestCase@6979e8cb]" name="FailingTest" duration-ms="31" started-at="2019-05-17T18:16:07Z" finished-at="2019-05-17T18:16:08Z">
+    <test name="Default test" duration-ms="65" started-at="2019-05-20T11:58:54Z" finished-at="2019-05-20T11:58:54Z">
+      <class name="Assignments.Question2ListenerTestCase">
+        <test-method status="PASS" signature="FailingTest()[pri:0, instance:Assignments.Question2ListenerTestCase@28f67ac7]" name="FailingTest" duration-ms="30" started-at="2019-05-20T17:28:54Z" finished-at="2019-05-20T17:28:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailingTest -->
-        <test-method status="PASS" signature="PassingTest()[pri:0, instance:Assignments.ListenerTestCase@6979e8cb]" name="PassingTest" duration-ms="0" started-at="2019-05-17T18:16:08Z" finished-at="2019-05-17T18:16:08Z">
+        <test-method status="PASS" signature="PassingTest()[pri:0, instance:Assignments.Question2ListenerTestCase@28f67ac7]" name="PassingTest" duration-ms="3" started-at="2019-05-20T17:28:54Z" finished-at="2019-05-20T17:28:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PassingTest -->
-      </class> <!-- Assignments.ListenerTestCase -->
+      </class> <!-- Assignments.Question2ListenerTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
