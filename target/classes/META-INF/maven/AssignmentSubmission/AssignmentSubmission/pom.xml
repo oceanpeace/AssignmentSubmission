@@ -3,4 +3,38 @@
   <groupId>AssignmentSubmission</groupId>
   <artifactId>AssignmentSubmission</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>info.cukes</groupId>
+  		<artifactId>cucumber-testng</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  	</dependency>
+  </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>info.cukes</groupId>
+  			<artifactId>cucumber-testng</artifactId>
+  			<version>1.2.5</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.testng</groupId>
+  			<artifactId>testng</artifactId>
+  			<version>6.13.1</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.seleniumhq.selenium</groupId>
+  			<artifactId>selenium-java</artifactId>
+  			<version>3.14.0</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>

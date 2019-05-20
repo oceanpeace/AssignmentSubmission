@@ -4,6 +4,7 @@ package Assignments;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -22,31 +23,43 @@ import org.testng.annotations.Test;
 public class Question1 {
 	
 	
-	//reading from config file
-	File file = new File(System.getProperty("user.dir") + File.separator + "src" + File.separator + "test" + File.separator + "resources" +  File.separator + "config.properties");
-    Properties prop = new Properties();
-    FileInputStream fipg = new FileInputStream(file);
-   // prop.load(fipg);
 	
+	    String usernamee ;
+	    String password ;
+	    String name;
+	    String mobile;
+	    String address ;
+	    String Demo_url ;
+	    String Demo_username;
+	    String Demo_password ;
+	    String url;
+		
     
-	 //assigning keys and values from config file 
-	    final String usernamee = prop.getProperty("Username");
-	    String password = prop.getProperty("Password");
-	    String name = prop.getProperty("Name");
-	    String mobile = prop.getProperty("Mobile");
-	    String address = prop.getProperty("Address");
-	    String Demo_url = prop.getProperty("demo_url");
-	    String Demo_username= prop.getProperty("demo_username");
-	    String Demo_password = prop.getProperty("demo_password");
-	    String url = prop.getProperty("URL");
+	
 	
 	
 	
 	
 	WebDriver driver;
-
+	 
 	public Question1() throws IOException
+	
 	{
+		//reading from config file
+		File file = new File(System.getProperty("user.dir") + File.separator + "src" + File.separator + "test" + File.separator + "resources" +  File.separator + "config.properties");
+	    Properties prop = new Properties();
+	    FileInputStream fipg = new FileInputStream(file);
+	    prop.load(fipg);
+	    
+	    usernamee = prop.getProperty("Username");
+	    password = prop.getProperty("Password");
+	    name = prop.getProperty("Name");
+	    mobile = prop.getProperty("Mobile");
+	    address = prop.getProperty("Address");
+	    Demo_url = prop.getProperty("demo_url");
+	    Demo_username= prop.getProperty("demo_username");
+	    Demo_password = prop.getProperty("demo_password");
+	    url = prop.getProperty("URL");
 		
 	
 	    
@@ -84,7 +97,7 @@ public class Question1 {
  a. search(enter value in text box, select Title and location dropdown, Validate search result using Assert)
  b. other test method for reset*/
  
- @Test(enabled=false)
+ @Test(enabled=true)
  public void searchDirectory() throws InterruptedException
  {
 	 testLogin();
@@ -124,10 +137,7 @@ public class Question1 {
 	 homePage.clickAdminTab();
 	 Thread.sleep(4000);
 	 AdminPage admin=new AdminPage(driver);
-	/* admin.enterUserName("Daniel");
-	 admin.selectUserRole("ESS");
-	 admin.enterEmployeeName("Daniel Daniel Daniel");
-	 admin.selectStatus("Enabled");*/
+	
 	 
 	 admin.enterUserName("fiona.grace");
 	 admin.selectUserRole("ESS");
