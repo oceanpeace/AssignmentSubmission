@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
-import Assignments.BasePage;
+//import Assignments.BasePage;
 import Assignments.DirectoryPage;
 import Assignments.LoginPage;
 import Assignments.OrangeHRMHomePage;
@@ -18,7 +18,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-import org.openqa.selenium.By;
+//import org.openqa.selenium.By;
 
 
 public class StepDefinition {
